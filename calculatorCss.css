@@ -1,0 +1,118 @@
+html{
+    background-color: rgb(12, 12, 12);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#container{
+    display:grid;
+    grid-template-areas:
+        "result result result result"
+        "clear divide multiplyy erase"
+        "seven eight nine subtractt"
+        "four five six addd"
+        "one two three equal"
+        "percentage zeroo dott equal";
+        align-items: stretch;
+        background-color: rgb(138, 228, 115);
+        width:350px;
+        height: 600px;
+        position: relative;
+        margin:auto;
+        font-size: 25px;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font:bold;
+        text-align: center;
+        text-justify:center;
+        padding:10px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 7px;
+}
+.one{
+    grid-area: one;
+}
+.display{
+    grid-area: result;
+    height: 130px;
+
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.zero{
+    grid-area: zeroo;
+}
+.add{
+    grid-area: addd;
+}
+.equal{
+    grid-area: equal;
+}
+.subtract{
+    grid-area: subtractt;
+}
+.dot{
+    grid-area: dott;
+}
+.percentage{
+    grid-area: percentage;
+}
+.clear{
+    grid-area: clear;
+}
+.divide{
+    grid-area: divide;
+}
+.multiply{
+    grid-area: multiplyy;
+}
+.erase{
+    grid-area: erase;
+}
+.boxy{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin:5px;
+    background-color: rgb(153, 158, 160);
+}
+.boxy:hover{
+    animation-name: zoom-and-light;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
+.boxy:clicked{
+
+}
+@keyframes zoom-and-light{
+    100%{
+        background-color: rgb(178, 184, 187) ;
+    }
+}
