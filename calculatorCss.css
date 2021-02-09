@@ -37,6 +37,16 @@ h1{
 .display{
     grid-area: result;
     height: 130px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin:5px;
+    background-color: rgb(153, 158, 160);
+    font-size: 35px;
+    width: 335px;
 
 }
 .two{
