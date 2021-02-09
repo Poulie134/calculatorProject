@@ -13,9 +13,9 @@ h1{
         "seven eight nine subtractt"
         "four five six addd"
         "one two three equal"
-        "percentage zeroo dott equal";
+        "zeroo zeroo dott equal";
         align-items: stretch;
-        background-color: rgb(138, 228, 115);
+        background-color: rgb(248, 170, 53);
         width:350px;
         height: 600px;
         position: relative;
@@ -28,8 +28,9 @@ h1{
         text-justify:center;
         padding:10px;
         border-style: solid;
+        border-width: 1px;
         border-color: black;
-        border-radius: 7px;
+        border-radius: 10px;
 }
 .one{
     grid-area: one;
@@ -88,9 +89,6 @@ h1{
 .dot{
     grid-area: dott;
 }
-.percentage{
-    grid-area: percentage;
-}
 .clear{
     grid-area: clear;
 }
@@ -113,16 +111,19 @@ h1{
     margin:5px;
     background-color: rgb(153, 158, 160);
 }
+.operator{
+    background-color: rgba(153, 158, 160, 0.603);
+}
 .boxy:hover{
     animation-name: zoom-and-light;
     animation-duration: 100ms;
     animation-fill-mode: forwards;
 }
-.boxy:clicked{
-
+.selectedOperator{
+    background-color: rgb(211, 217, 219);
 }
 @keyframes zoom-and-light{
     100%{
-        background-color: rgb(178, 184, 187) ;
+        background-color: rgb(227, 231, 233) ;
     }
 }
