@@ -1,0 +1,29 @@
+need a state of my calculator
+first state adding the first number
+secon state choosing the operator
+third state choosing the second number
+4th state displaying the result when pressing equal
+
+1st state:
+it's gonna start when pressed a number, if there is no aNumber
+it's gonna last till an operator is pressed
+it's gonna define my aNumber
+
+2nd state:
+it's gonna start with the press of an operator
+it's gonna change the operator every time an opertaor is clicked
+it's gonna end with the press of a number
+
+3rd state is going to:
+start with the press of a number if aNumber is already defined
+define my bNumber
+end with the press of equal
+
+4th state is going to:
+display my result
+define  the actual resutl as my aNumber
+if a number is pressed is goign to satrt state 1 again
+if an operator is pressed is going to start state 2 again
+
+clear button is going to restart everything
+erase button is gonna only work with numbers gona erase the last number or dot
